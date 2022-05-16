@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calc__wrapper">
+      <div class="calc__inner">
+        <input class="first-number" type="text" autofocus />
+        <div class="calc-operation__wrapper">
+          <div class="calc-operation__inner">
+            <button data-value="+" class="current plus calc-operator">+</button>
+            <button data-value="-" class="current minus calc-operator">-</button>
+            <button data-value="/" class="current devision calc-operator">/</button>
+            <button data-value="*" class="current multiplay calc-operator">*</button>
+          </div>
+          <div class="calc-operation__clear">
+            <button data-value="clear" class="delete-symbol">Backspase</button>
+            <button data-value="clear" class="clear">Сбросить</button>
+          </div>
+          
+          
+        </div>
+        <div class="calc-numbers__wrapper">
+          <button data-value="1" class="current num-one calc-number">1</button>
+          <button data-value="2" class="current num-two calc-number">2</button>
+          <button data-value="3" class="current num-three calc-number">3</button>
+          <button data-value="4" class="current num-four calc-number">4</button>
+          <button data-value="5" class="current num-five calc-number">5</button>
+          <button data-value="6" class="current num-six calc-number">6</button>
+          <button data-value="7" class="current num-seven calc-number">7</button>
+          <button data-value="8" class="current num-eight calc-number">8</button>
+          <button data-value="9" class="current num-nine calc-number">9</button>
+          <button data-value="0" class="current num-zero calc-number">0</button>
+        </div>
+        <div class="output-result__wrapper">Результат: <span class="output-result"></span></div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
